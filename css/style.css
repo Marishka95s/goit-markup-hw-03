@@ -38,6 +38,8 @@ body {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -106,7 +108,7 @@ p {
 }
 .site-nav {
   display: flex;
-  padding-inline-start: 0;
+  /* padding-inline-start: 0; */
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
@@ -118,10 +120,10 @@ p {
 .site-nav .item:last-child {
   margin-right: 0px;
 }
-.site-nav .item a {
+.site-nav a {
   color: var(--main-text-color);
 
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
