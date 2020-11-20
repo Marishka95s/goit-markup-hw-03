@@ -71,8 +71,8 @@ p {
   padding-bottom: 94px;
   margin: 0 auto;
 
-  border: 1px solid tomato;
-  background-color: ROSYBROWN;
+  /* border: 1px solid tomato; */
+  /* background-color: ROSYBROWN; */
 }
 
 /* Logo */
@@ -169,7 +169,7 @@ p {
 .hero {
   text-align: center;
   border-top: 1px solid #ececec;
-  /* background-color: #2f303a; */
+  background-color: #2f303a;
 }
 .hero-title {
   margin: 0;
@@ -273,6 +273,7 @@ p {
   display: block;
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+  padding-bottom: 30px;
 
   text-align: center;
   background: #ffffff;
@@ -283,21 +284,13 @@ p {
 .team-list .item:last-child {
   margin-right: 0px;
 }
-.team h3 {
-  display: block;
-  margin-top: 30px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19px;
-  text-transform: none;
-}
-.team p {
-  display: block;
+.team-list .item p {
   margin-top: 10px;
 
   font-size: 16px;
   line-height: 1.19px;
+  text-transform: none;
 }
 
 /* Footer */
