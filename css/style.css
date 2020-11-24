@@ -30,6 +30,9 @@
 
 /* Basic teg-style settings*/
 body {
+  margin: 0;
+  padding: 0;
+
   background-color: var(--additional-color);
   color: var(--main-text-color);
 
@@ -64,6 +67,12 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+/* Usefull for future */
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
 /* Container box */
 .container {
   width: 1200px;
@@ -75,6 +84,17 @@ p {
 
   /* border: 1px solid tomato; */
   /* background-color: ROSYBROWN; */
+}
+/* Usefull for future */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Logo */
@@ -276,6 +296,7 @@ p {
   display: block;
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+  overflow: hidden;
 
   text-align: center;
   background-color: #ffffff;
@@ -410,6 +431,7 @@ address a {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  overflow: hidden;
 
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -421,6 +443,8 @@ address a {
   margin-bottom: 0px;
 }
 .project-list .item a {
+  display: block;
+
   background-color: var(--additional-color);
 }
 .project-info {
